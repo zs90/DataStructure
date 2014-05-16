@@ -1,9 +1,9 @@
-#include "stdafx.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 using namespace std;
 
-//a为输入堆，n为待上滤元素下标
+//heap为输入堆，pos为待上滤元素下标
 void MinHeapAjustUp(int heap[], int pos)
 {
 	int father_index, child_index, element;
