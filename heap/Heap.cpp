@@ -1,9 +1,6 @@
-// test.cpp : 定义控制台应用程序的入口点。
-//
-
 #include "stdafx.h"
 #include <stdlib.h>
-#include <string>
+
 using namespace std;
 
 //a为输入堆，n为待上滤元素下标
@@ -123,6 +120,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	for(int i = 0; i < 8; ++i)
 		printf("%d ",sorted[i]);
 	system("pause");
-    return 0;
+    	return 0;
 }
 
