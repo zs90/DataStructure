@@ -5,7 +5,7 @@ struct BiTreeNode {
 };
 
 void PreOrderTraverseNonRecursive(struct BiTreeNode * T){
-	stack <struct node *> s;
+	stack <struct BiTreeNode *> s;
 	struct BiTreeNode *p = T;
 	struct BiTreeNode *tmp;
 	
