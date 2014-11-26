@@ -4,7 +4,7 @@ struct BiTreeNode {
 	struct BiTreeNode * rchild;
 };
 
-void MidOrderTraverseNonRecursive(struct BiTreeNode * T){
+void PostOrderTraverseNonRecursive(struct BiTreeNode * T){
 	stack <struct BiTreeNode *> s;
 	struct BiTreeNode *p = T;
 	struct BiTreeNode *visited_node = NULL;
