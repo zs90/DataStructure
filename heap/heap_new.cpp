@@ -38,6 +38,6 @@ void HeapSort(int a[], int len){
 	// then adjust down the top of heap to maintain it property, now the length should decrease by one
 	for(int i = len - 1; i > 0 ; i--){
 		swap(a, i, 0);
-		AdjustDown(a, 0, len - 1);
+		AdjustDown(a, 0, i);
 	}
 }
